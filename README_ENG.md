@@ -1,4 +1,4 @@
-# Instrukcja #
+# Instructions #
 
 Main Menu contains 3 options:
 
