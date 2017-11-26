@@ -465,7 +465,7 @@ def movePlayer_small(direction,matrix, lev_num, win=False):
 def play_random(songs):
 	if if_sound==0:
 		pygame.mixer.music.load(random.choice(songs))
-		pygame.mixer.music.play(0)
+		pygame.mixer.music.play(-1)
 
 with open('window_size.txt', 'rb') as f:
     window_size = pickle.load(f)
@@ -503,8 +503,9 @@ if window_size==1:
 		'Options',
 		'Quit Game'), x_pos=300)
 		if dmval == 2:
-			pygame.mixer.music.load(sounddir+'exit.wav')
-			pygame.mixer.music.play(-1)
+			if if_sound==0:
+				pygame.mixer.music.load(sounddir+'exit.wav')
+				pygame.mixer.music.play(-1)
 			quit_screen=True
 			screen.blit(back, backrect)
 			font = pygame.font.SysFont("Courier", 80, True)
