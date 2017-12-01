@@ -15,3 +15,5 @@ Po wejściu w Start Game graczowi ukazuje się menu z zestawami poziomów, uporz
 Gra polega na ślizganiu się po planszy - gracz steruje ludzikiem za pomocą strzałek. Po wciśnięciu odpowiedniej strzałki ludzik porusza się w danym kierunku aż do dotarcia do ściany. Aby przejść dany poziom, należy zdobyć klucz, a następnie dojść do oznaczonego celu. Po przejściu poziomu rozpoczyna się następny poziom. Po ukończeniu całego zestawu (zaczynając od pierwszego poziomu) ukazuje się okolicznościowy mem. Wciśnięcie Escape przerywa poziom, wciśnięcie klawisza R restartuje poziom. Numer poziomu jest pokazany w lewym górnym rogu.
 
 Żeby wyjść z gry należy w głównym manu wybrać opcję Quit Game, a w ekranie wyjścia z gry wcisnąć Y. Aby nie wychodzić z gry w ekranie wyjścia z gry należy wcisnąć N.
+
+Pliki dźwiękowe pochodzą z gry Heroes of Might and Magic III. Pliki graficzne zostały znalezione na Google Grafika i pochodzą z różnych stron internetowych.
